@@ -1,4 +1,9 @@
+html {
+  font-size: calc(0.7em + 1vw);
+}
+
+
 .mid {
   text-align: center;
-  font-size: 3.5em;
+
 }
