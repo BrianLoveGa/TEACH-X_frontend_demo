@@ -13,26 +13,98 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Teach-X</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Browse</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Standards by Subject
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Mathematics</a>
+              <a class="dropdown-item" href="#">Science</a>
+              <a class="dropdown-item" href="#">Social Studies</a>
+              <a class="dropdown-item" href="#">English Language Arts</a>
+              <a class="dropdown-item" href="#">Physical Education</a>
+              <a class="dropdown-item" href="#">World Languages</a>
+              <a class="dropdown-item" href="#">Fine Arts</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Standards by Grade Level</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
     <div class="container-fluid">
       <h2>main page while logged in as a user</h2>
       <h2>
         Users with accounts can add relevant content to any of the standards
       </h2>
       <h2>They can also bookmark / favorite and comment</h2>
+      <h3>the plus gets you to the item view page to add or comment</h3>
       <ul>
         standards
-        <li id="item1">ss ud hs 1 <span> george washington</span></li>
+        <li id="item1">ss ud hs 1 <span> George Washington</span> +</li>
         <ul id="hide1">
           <li>
             TOM45 - cool article about wooden teeth
-            <a href="#">GEORGE's teeth?</a>
+            <a href="#">GEORGE's Teeth</a>
           </li>
           <ul>
             <li>cindy 33 - awesome as always tom</li>
             <li>
               rachel 7 - he also didn't know about dinosaurs
-              <a href="#">DINO GEORGE</a>
+              <a href="#">Don't know DINOs GEORGE Washington</a>
             </li>
+            <ul>
+              <li>
+                GreggPanther$$% - yeah dinos were discovered after George had
+                passed they thought the big bones were from giants
+              </li>
+              <li>
+                M0n1ca-_-Lewis - lorem ipsum bacon veraditas quid pro quo
+                habeous corpus
+              </li>
+            </ul>
           </ul>
           <li>
             trisha456disha - Video about the cherry tree
@@ -50,14 +122,14 @@
           </ul>
           <li><button onclick="closeIt1()">Close this</button></li>
         </ul>
-        <li id="item2">ss ud hs 2 <span> Abe lincon</span></li>
-        <li id="item3">ss ud hs 3 <span> Teddy rosevelt</span></li>
-        <li id="item4">ss ud hs 4 <span> Dwight Eisenhour</span></li>
+        <li id="item2">ss ud hs 2 <span> Abe lincon</span> +</li>
+        <li id="item3">ss ud hs 3 <span> Theodore Roosevelt Jr. </span> +</li>
+        <li id="item4">ss ud hs 4 <span> Dwight Eisenhour</span> +</li>
         <ul id="hide4">
           <li>
             TIM 04 Blue - short video about Nixon as VP <a href="#">VP NIXON</a>
           </li>
-          <ul id="hide4">
+          <ul>
             <li>cindy 33 - what was that funny movie about him?</li>
             <li>
               Jeff66Red7 - @ cindy 33 - you mean frost / nixon?
@@ -67,8 +139,9 @@
               Frank14 - @ Cindy 33 @ Jeff66Red7 - Dick? from way back in '99?
             </li>
           </ul>
+          <li><button onclick="closeIt4()">Close this</button></li>
         </ul>
-        <li id="item5">ss ud hs 5 <span> Martin Van Buren</span></li>
+        <li id="item5">ss ud hs 5 <span> Martin Van Buren</span> +</li>
       </ul>
     </div>
     <script src="site.js"></script>
