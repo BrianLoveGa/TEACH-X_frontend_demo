@@ -32,7 +32,7 @@ function closeit2() {
 let third = document.getElementById("item3");
 third.addEventListener("click", showStuff3);
 
-function showStuff3{
+function showStuff3 (){
   commentsThree.style.display = 'block'
 }
 
