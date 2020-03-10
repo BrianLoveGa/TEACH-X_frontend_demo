@@ -25,19 +25,19 @@ function showStuff2() {
   commentsTwo.style.display = "block";
 }
 
-function closeit2() {
+function closeIt2() {
   commentsTwo.style.display = "none";
 }
 
 let third = document.getElementById("item3");
 third.addEventListener("click", showStuff3);
 
-function showStuff3 (){
-  commentsThree.style.display = 'block'
+function showStuff3() {
+  commentsThree.style.display = "block";
 }
 
-function closeIt3(){
-  commentsThree.style.display = 'none'
+function closeIt3() {
+  commentsThree.style.display = "none";
 }
 
 let four = document.getElementById("item4");
@@ -50,4 +50,14 @@ function showStuff4() {
 function closeIt4() {
   commentsFour.style.display = "none";
 }
-Í
+
+let fifth = document.getElementById("item5");
+fifth.addEventListener("click", showStuff5);
+
+function showStuff5() {
+  commentsFive.style.display = "block";
+}
+
+function closeIt5() {
+  commentsFive.style.display = "none";
+}
